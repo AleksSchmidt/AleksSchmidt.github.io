@@ -182,3 +182,49 @@ text-align: center;
 
 color: #000000;
 }
+
+.search-box {
+    position: absolute;
+    width: 335px;
+    height: 32px;
+    left: 20px;
+    top: 210px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    
+}
+
+.search-logo{
+    float: right;
+}
+
+.nähe{
+    position: absolute;
+    width: 335px;
+    height: 32px;
+    left: 262px;
+    top: 5px;
+}
+
+.nähe-text {
+    position: absolute;
+width: 335px;
+height: 32px;
+left: 75px;
+top: 0px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 29px;
+
+    
+}
+    

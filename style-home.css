@@ -165,3 +165,15 @@ ul li:hover a {
     pointer-events: none;
 
 }
+
+.hilfetext {
+    font-size: 12px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.hilfetext2 {
+    font-size: 12px;
+    margin-top: -135px;
+    text-align: center;
+}

@@ -7,7 +7,10 @@ const assets = [
   '/index.html',
   '/home.html',
   '/einstellungen.html',
-  
+  '/js.js',
+  '/app.js',
+  '/db.js',
+  '/server.js',
   '/über-uns.html',
   '/mensa-suchen.html',
 

@@ -7,14 +7,46 @@
     <title>kantina - Mensa suchen</title>
     <link rel="stylesheet" href="style-mensa-suchen.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
-    
-</head
+   
+ 
+
+   
+</head>
 
 <body>
+
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+  <script>
+    // TODO: Replace the following with your app's Firebase project configuration
+    var firebaseConfig = {
+  apiKey: "AIzaSyD4wRXEGlNZ8V6BU5tABPxjUTGT-Si6O1U",
+  authDomain: "mensa-82b88.firebaseapp.com",
+  databaseURL: "https://mensa-82b88.firebaseio.com",
+  projectId: "mensa-82b88",
+  storageBucket: "mensa-82b88.appspot.com",
+  messagingSenderId: "770832934905",
+  appId: "1:770832934905:web:397d3377b961d06339ff28",
+  measurementId: "G-QJ6QGE8WF1"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+const db= firebase.firestore();
+  </script>
+<script   src="js.js"></script>
 <div class="ct">
+    
 
 
-<div class="logo">
+
+    <div class="logo">
         <a href="index.html"><img class="kantina-mini-logo" src="images/mini-logo.png" alt="" /></a>
 </div>
 
@@ -49,7 +81,7 @@
     <div class="wrapper">
         <header>
             <a href="#">
-                <h1><b>SUCHE STARTEN</b></h1>
+                <h1><b onclick="listMensa(),getFavouriteMesa()">SUCHE STARTEN</b></h1>
                 
                 
             </a>

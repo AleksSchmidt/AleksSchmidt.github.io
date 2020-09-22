@@ -227,4 +227,22 @@ line-height: 29px;
 
     
 }
+
+Header a {
+    position: absolute;
+width: 286px;
+height: 52px;
+left: 45px;
+top: -55px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+header a:hover {
+    transform: translateY(-8px);
+}
     

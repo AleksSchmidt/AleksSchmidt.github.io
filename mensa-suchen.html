@@ -7,13 +7,15 @@
     <title>kantina - Mensa suchen</title>
     <link rel="stylesheet" href="style-mensa-suchen.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
-   
+    
  
 
    
 </head>
 
 <body>
+    
+
 
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
 
@@ -67,35 +69,31 @@ const db= firebase.firestore();
 <div class="text">
     <p>MENSA SUCHEN</p>
 </div>
-<div class="search-box">
-    <input type="text" name="" placeholder="Name der Mensa">
-    <a class="search-btn" href="#">
-    
-    </a>
-    
-</div>
 
-</div>
 
 <div class="header-container">
     <div class="wrapper">
         <header>
-            <a href="#">
-                <h1><b onclick="listMensa(),getFavouriteMesa()">SUCHE STARTEN</b></h1>
-                
-                
-            </a>
-            <div class="nähe-text">
-                Mensen in der Nähe suchen:
-            </div>    
             
-            <div class="nähe">
-            <input type="checkbox" id="checkb">
-            </div>
-            
+<a href="alle-mensen.html">
+    <h1><b>ALLE MENSEN</b></h1>
+    
+    
+</a>
+
+    
 </div>
 </header>
 </div>
+
+
+</div>
+<div class="header-container">
+    <div class="wrapper">    
+</div>
+</div>
+
 <scrip src="main.js"></scrip>
+<script  src="/script.js"></script>
 </body>
 </html>
